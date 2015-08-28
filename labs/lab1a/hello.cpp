@@ -1,4 +1,4 @@
-/*  Program: Hello.cpp
+/*  Program: hello.cpp
     Date: 08/28/2015
     Programers: Riley Childs <me@rileychilds.me>
     Purpose: Print a simple welcome message on the screen

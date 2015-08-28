@@ -18,6 +18,7 @@ int main()
     	cout << "Enter discount percent:" << endl;
     	cin >> percentDiscount;
 	    // Calculate the new price
+	    percentDiscount = percentDiscount / 100;
     	newPrice = originalPrice * percentDiscount;
 		// Display the new price on the screen
     	cout << "The original price of $" << originalPrice << " has been reduced to: $" << newPrice;	
