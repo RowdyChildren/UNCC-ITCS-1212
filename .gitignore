@@ -1,11 +1,10 @@
 # Ignore everything
 *
-.c9/*
+
 # But not these files...
 !.gitignore
 !*.cpp
 !README.md
-.c9/
 # etc...
 
 # ...even if they are in subdirectories
