@@ -5,7 +5,7 @@
 !.gitignore
 !*.cpp
 !README.md
-.c9/*
+.c9/metadata/*
 # etc...
 
 # ...even if they are in subdirectories
