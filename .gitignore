@@ -5,7 +5,8 @@
 !.gitignore
 !*.cpp
 !README.md
-
+!classwork/
+!homework/
 # ...even if they are in subdirectories
 !*/
 /.c9/ 
