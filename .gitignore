@@ -5,10 +5,11 @@
 !.gitignore
 !*.cpp
 !README.md
+
+# ...even if they are in subdirectories
+!*/
 /.c9/ 
 /.c9/*
 .c9/
 # etc...
-
-# ...even if they are in subdirectories
-!*/
+.c9/*
