@@ -6,6 +6,8 @@
 !*.cpp
 !README.md
 /.c9/ 
+/.c9/*
+.c9/
 # etc...
 
 # ...even if they are in subdirectories
