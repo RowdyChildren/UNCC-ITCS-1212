@@ -1,7 +1,7 @@
 /*
 	Program: calculateAverage.cpp
 	Date: 08/28/2015
-	Programmers: Riley Childs <me@rileychilds.me
+	Programmers: Riley Childs <me@rileychilds.me>
     Purpose:	This program prompts the user to enter 3 test scores. It reads in these scores, calculates the average and prints the average to the screen.
 
 */
