@@ -3,7 +3,18 @@
 	Date: 08/28/2015
 	Programmers: Riley Childs <me@rileychilds.me>
     Purpose:	This program prompts the user to enter 3 test scores. It reads in these scores, calculates the average and prints the average to the screen.
-
+    Algorithim: 
+    	-Get the first grade from the user
+    		-Check if that value is a number
+    		-If it is, continue, if not reprompt for input
+    	-Get the second grade from the user
+    		-Check if that value is a number
+    		-If it is, continue, if not reprompt for input
+    	-Get the third grade from the user
+    		-Check if that value is a number
+    		-If it is, continue, if not reprompt for input
+    	-Calculate the average by adding the grades together and then dividing
+    	
 */
 #include<iostream>
 #include<limits>
@@ -39,7 +50,7 @@ int main()
     			cin.clear();
     		//lets make sure that we don't take the wrong input!	
 				cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    			cout << "That wasn't good input!\nEnter the while test grade:";
+    			cout << "That wasn't good input!\nEnter the third test grade:";
 	       	}
 
 	    // Calculate the Average of the 3 test 
