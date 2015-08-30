@@ -5,6 +5,7 @@
 !.gitignore
 !*.cpp
 !README.md
+!LICENSE
 !classwork/
 !homework/
 # ...even if they are in subdirectories
