@@ -48,7 +48,7 @@ int main()
 				//well it wasn't greater than 1 so they have to try again.
 			while (!(cin >> percentDiscount)) {
     		
-    		//we need to clear the cin value
+    		//we need to clear the users value value
     			cin.clear();
     		//lets make sure that we don't take the wrong input!	
 				cin.ignore(numeric_limits<streamsize>::max(), '\n');
