@@ -17,7 +17,7 @@ int main()
     //Ask the user for the length
     cout << "What is the length?";
     
-    //Get the input from the commandline
+    //Get the input from the command line
     cin >> length;
     
     //Ask the user for the width
