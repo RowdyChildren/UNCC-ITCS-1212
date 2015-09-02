@@ -14,9 +14,9 @@ using namespace std;
 int main()
     {
         //lets print some text!
-        cout << "Hello my name is " << "Riley Childs" << " and my partner's name is " << "Person";
+        cout << "Hello my name is " << "Riley Childs" << " and my partner's name is " << "Mike";
         
-        return 0;
+        return 1;
         
     }
         

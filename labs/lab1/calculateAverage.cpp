@@ -32,7 +32,7 @@ int main()
     			cin.clear();
     		//lets make sure that we don't take the wrong input!	
 				cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    			cout << "That wasn't good input!\nEnter the first test grade:";
+    			cout << "Your input should be a number\nEnter the first test grade:";
     						}			
 	    cout << "Enter the second test grade:";
 	 		while (!(cin >> test2)) {
@@ -41,7 +41,7 @@ int main()
     			cin.clear();
     		//lets make sure that we don't take the wrong input!	
 				cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    			cout << "That wasn't good input!\nEnter the second test grade:";
+    			cout << "Your input should be a number\nEnter the second test grade:";
     						}
 	    cout << "Enter the third test grade:";
 	       	while (!(cin >> test3)) {
@@ -50,13 +50,13 @@ int main()
     			cin.clear();
     		//lets make sure that we don't take the wrong input!	
 				cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    			cout << "That wasn't good input!\nEnter the third test grade:";
+    			cout << "Your input should be a number\nEnter the third test grade:";
 	       	}
 
 	    // Calculate the Average of the 3 test 
 	    //logic error: you needed to add preentacess 
 	    average = (test1 + test2 + test3) / 3;
 	    // Display the average on the screen
-	    cout << "The average of" << test1 << " and " << test2 << " and " << test3 <<" is:" << average;
+	    cout << "The average of " << test1 << " and " << test2 << " and " << test3 <<" is:" << average;
 	    return 0; 
     }
