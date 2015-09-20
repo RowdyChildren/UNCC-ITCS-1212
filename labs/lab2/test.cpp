@@ -1,28 +1,9 @@
 #include <iostream>
-#include <string>
 using namespace std;
 int main()
 {
-int number=0;
-
-
-cout<< "enter a number: ";
-
-
-cin>> number;
-
-
-if (number > 0)
-
-
-cout << "The number is positive." << endl;
-
-
-else
-
-
-cout << "The number is negative." << endl;
-
-
+int a = 5 , b =2;
+float c = float (a)/b;
+cout << c;
 return 0;
 }
