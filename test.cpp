@@ -1,11 +1,21 @@
 #include <iostream>
-
-//declare namespace
 using namespace std;
 
-//intalize main function
-int main()
-{// main ()
-cout << 121.0-;
- return 0;
+void myFunc1(int var)	{
+	var = 50;
+	cout << var << endl;
+}
+void myFunc2(int &var)	{
+	var = 50;
+	cout << var << endl;
+}
+
+int main()	{
+	int var = 100;
+	myFunc1(var);
+	cout << var << endl;
+	myFunc2(var);
+	cout << var << endl;
+	
+	return 0;
 }

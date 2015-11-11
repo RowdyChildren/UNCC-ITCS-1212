@@ -13,7 +13,7 @@ int main ()
 
 {
     //declare constants
-    //declare and set tax rates as constants
+    //declare and set tax rates as constants and salaries
     const float SALARY_30 [2] = {30000, 0}, SALARY_40 [2] = {40000, .08}, SALARY_50 [2] = {50000,.1}, SALARY_60 [2] = {60000,.15}, SALARY_UP = .17;
     
     //declare variables 

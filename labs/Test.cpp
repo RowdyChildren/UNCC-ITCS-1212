@@ -4,11 +4,9 @@ using namespace std;
 
 int main ()
 {
-    int a = 10
-    b = a++
-    cout <<a << endl; << b;
-    a =10 
-     b = a++
-      cout <<a << endl; << b;
-      return 0;
+ int x = false || true, y = 1, z = 0;
+ cout << false || true ;
+ return 0;
+
+ 
 }

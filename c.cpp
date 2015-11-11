@@ -4,7 +4,12 @@ using namespace std;
 
 int main ()
 {
-int a = 5, b= 2;
-cout << pow(a,b);
+int x;
+int a = 1;
+x = 1;
+cout << x;
+x = a++;
+cout << x;
+cout << a;
 return 0;
 }

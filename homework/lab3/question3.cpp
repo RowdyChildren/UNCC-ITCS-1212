@@ -1,6 +1,6 @@
 /*
     Program: question3.cpp
-	Date: 2015-09-16
+	Date: 15-09-20
 	Programmers: Riley Childs <me@rileychilds.me>
 	Purpose:
 	
@@ -50,27 +50,22 @@ int main()
     
     //Determine user's grade
     
-    if (avg > 100) 
-    
-        cout << "Invalid Data" << endl; //TODO: This is pretty bad error checking
-    
-    else if (avg >= 90) 
-        cout << "You got a A" << endl; 
+    if (avg >= 90) 
+        cout << "You got a A (" << avg << ")" << endl; 
     
     else if (avg >= 80) 
-        cout << "You got a B" << endl;
+        cout << "You got a B (" << avg << ")" << endl;
     
     else if (avg >= 70) 
-        cout << "You got a C" << endl; 
+        cout << "You got a C (" << avg << ")" << endl; 
     
     else if (avg >= 60) 
-        cout << "You got a D" << endl;
+        cout << "You got a D (" << avg << ")" << endl;
     
-    else if (avg >= 0) 
-        cout << "You got a F" << endl;
+    else
+        cout << "You got a F (" << avg << ")" << endl;
     
-    else 
-        cout << "you messed up\n";
+
     
     return 0; 
 }

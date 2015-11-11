@@ -1,6 +1,6 @@
 /*
     Program: question4.cpp
-	Date: 2015-09-16
+	Date: 15-09-20
 	Programmers: Riley Childs <me@rileychilds.me>
 	Purpose:
 	
@@ -24,13 +24,16 @@ int main()
     cout << "Please enter the amount tendered\n";
     cin >> amtTendered;
     
-    
+    //convert float into pennies
     change = (amtTendered - cost) * 100;
     
+    //devide by 100 to get the total "whole" dollars
     dollars = change/100 ;
     
+    //take the mod to find out what change is left
     change = change % 100;
     
+    //wash, rinse repeat!
     quarters = change / 25;
     
     change = change % 25;
@@ -47,11 +50,11 @@ int main()
     
     
     
-    
+    //return data to user
     cout << "\n" << "Change Due: $" << (amtTendered - cost) << "\n" << "This is " << dollars << " dollars, "
     <<  quarters << " quarters, " << dimes << " dimes, " << nickles << " nickles, and " << pennies << " pennies\n";
     
-    //do the math
+
    
     
 return 0; 

@@ -32,7 +32,7 @@ int main( )
     else if (income < 2500.00)
     cout << "You are living in moderate comfort." << endl;
      //start if value is greater than or equal to 2500 echo a statement
-    else if (income <= 2500.00)
+    else
     cout << "You are well off." << endl;
 
     
