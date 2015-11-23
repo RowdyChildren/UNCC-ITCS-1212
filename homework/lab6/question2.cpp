@@ -6,18 +6,31 @@
 	
 */
 
-#include <iostream>
+#include<iostream>
 
 using namespace std;
-int main () 
-{
 
-int a=6, b = 12;
-while (a < b) {
-    cout << "x";
-    a += 2;
-    b -=2;
-}
-cout << ++x;
- return 0;   
+int main()
+
+{
+    
+    
+    int num,factorial=1;
+
+    cout<< "Enter a number: "";
+
+    cin>>num;
+
+    for(int a=1;a<=num;a++)
+
+    {
+
+        factorial=factorial*a;
+
+    }
+
+cout<<"Factorial  ="<<factorial<<endl;
+
+    return 0;
+
 }

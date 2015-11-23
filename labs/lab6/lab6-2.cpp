@@ -23,10 +23,11 @@ int main()
 
     { 
        
-        
+        /*
         cout << "Enter the total rainfall in inches for month " << month << endl; 
         cout << "Enter -1 when you are finished" << endl; 
         // Fill in the code to read in the value for rain 
+    */
     } 
     if (month == 0)                                     //#####question 2b answer: Error Checking######
         cout << "No data has been entered" << endl; 

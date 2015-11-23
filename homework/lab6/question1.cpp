@@ -12,20 +12,38 @@ using namespace std;
 int main () 
 {
     //init variables
-    double grade[3];
+    int numStudents;
+    cout << "How many students?" << endl;
+    cin >>  numStudents;
+    double **grade = new double*[numStudents];
     
+    for (int i = 0; i < numStudents; ++i) {
+    grade[i] = new double[3];
+        }
+    //double grade[numStudents][3];
+    double *avg = new double[numStudents];
     //for loop
-    for (int x = 0; x<3; x++) 
+    for (int i = 0; i<numStudents; i++)
         {
-            cout << "Please enter grade " << x + 1 << ":\n";
-            cin >> grade[x];
-            
-            
-        }   
+        for (int x = 0; x<3; x++) 
+            {
+                cout << "Please enter grade " << x + 1 << " for student "<<  i + 1 << ":\n";
+                cin >> grade[i][x];
+                
+                
+            }   
         
         //calculations and output
-        cout << "Your avg is: " << (grade[0] + grade[1] + grade[2])/3.0 << "\n";
+       avg[i] = (grade[i][0] + grade[i][1] + grade[i][2])/3.0;
         
+        }
+        
+    for (int i = 0; i<numStudents; i++)
+        {
+         cout << "The avg of student " << i + 1 << " is " << avg[i] << endl;   
+            
+            
+        }    
         //return success
         return 0;
 }

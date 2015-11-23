@@ -22,6 +22,7 @@ int main()
     
     while (letter != 'x') 
     { 
+        cout << "Enter x to exit\n";
         cout << "Please enter a letter" << endl; 
         cin >> letter; 
         cout << "The letter you entered is " << letter << endl; 
